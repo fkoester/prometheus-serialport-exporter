@@ -1,0 +1,24 @@
+{
+  "name": "prometheus-serialport-exporter",
+  "version": "0.1.0",
+  "description": "Allows scraping of temperature data provided by an Arduino via serial port",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fkoester/prometheus-serialport-exporter.git"
+  },
+  "author": "Fabian Köster <mail@fabian-koester.com>",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/fkoester/prometheus-serialport-exporter/issues"
+  },
+  "homepage": "https://github.com/fkoester/prometheus-serialport-exporter#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "prom-client": "^6.1.1",
+    "serialport": "^4.0.5"
+  }
+}
