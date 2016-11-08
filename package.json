@@ -4,6 +4,7 @@
   "description": "Allows scraping of temperature data provided by an Arduino via serial port",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
