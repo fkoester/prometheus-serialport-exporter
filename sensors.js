@@ -1,7 +1,7 @@
 const SerialPort = require("serialport");
 const client = require('prom-client');
 
-const tempGauge = new client.Gauge('temperature', 'Temperature in server room', [ 'method', 'code' ]);
+const tempGauge = new client.Gauge('temperature', 'Temperature in server room');
 let first = true;
 
 const port = new SerialPort("/dev/ttyACM0", {
